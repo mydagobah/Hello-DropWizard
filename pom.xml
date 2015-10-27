@@ -9,7 +9,8 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <dropwizard.version>0.8.0</dropwizard.version>
+    <dropwizard.version>0.8.1</dropwizard.version>
+    <guava.version>18.0</guava.version>
   </properties>
 
   <dependencies>
@@ -17,6 +18,11 @@
         <groupId>io.dropwizard</groupId>
         <artifactId>dropwizard-core</artifactId>
         <version>${dropwizard.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>${guava.version}</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
